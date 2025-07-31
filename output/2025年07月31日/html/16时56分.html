@@ -1,0 +1,154 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-07-31 16:56:09</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">21</td>
+                    <td class="percentage">8.24%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8lRDh1Otg90" target="_blank" class="news-link">外交部回应2名中国人在日本被打重伤</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2102065" target="_blank" class="news-link">外交部：中国公民近期谨慎前往日本旅游</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时56分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8lQuG8M2mN8" target="_blank" class="news-link">日媒：两名中国人在东京街上遭4人用铁管殴打受重伤</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时56分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343911&amp;amp;topic_name=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%9C%A8%E4%B8%9C%E4%BA%AC%E9%81%AD%E5%9B%B4%E6%AE%B4%EF%BC%8C%E8%B0%81%E5%9C%A8%E6%8C%91%E4%BA%8B%EF%BC%9F" target="_blank" class="news-link">中国人在东京遭围殴，谁在挑事？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31261500" target="_blank" class="news-link">再遇见｜欧盟中国商会会长刘坚东：中欧产业角色从“互补”走向“竞合”</a> [8] <font color='grey'>- 16时56分</font><br>[抖音] <a href="https://www.douyin.com/hot/2187475" target="_blank" class="news-link">中国兵器原副总经理刘卫东被双开</a> [8] <font color='grey'>- 16时56分</font><br>[抖音] <a href="https://www.douyin.com/hot/2187755" target="_blank" class="news-link">外交部回应2名中国人在日遭袭</a> [9] <font color='grey'>- 16时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=2%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%9C%A8%E6%97%A5%E6%9C%AC%E8%A1%97%E5%A4%B4%E9%81%AD4%E4%BA%BA%E6%AE%B4%E6%89%93%E9%87%8D%E4%BC%A4" target="_blank" class="news-link">2名中国人在日本街头遭4人殴打重伤</a> [10] <font color='grey'>- 16时56分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343900&amp;amp;topic_name=%E8%B5%B5%E5%BF%83%E7%AB%A5%E4%B8%81%E4%BF%8A%E6%99%96%20%E8%B0%81%E8%83%BD%E6%8B%BF%E4%B8%8B%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%93%A5%E4%B9%8B%E4%BD%8D" target="_blank" class="news-link">赵心童丁俊晖 谁能拿下中国一哥之位</a> [10] <font color='grey'>- 16时56分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7532137095532675111/" target="_blank" class="news-link">2名中国人日本街头遭4人殴打重伤</a> [11] <font color='grey'>- 16时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%942%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%9C%A8%E6%97%A5%E8%A2%AB%E6%89%93%E9%87%8D%E4%BC%A4" target="_blank" class="news-link">外交部回应2名中国人在日被打重伤</a> [14] <font color='grey'>- 16时56分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E6%97%A5%E6%9C%AC%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A52%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%9C%E4%BA%AC%E9%81%AD4%E4%BA%BA%E6%AE%B4%E6%89%93%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">日本警方通报2中国人东京遭4人殴打</a> [15] <font color='grey'>- 16时56分</font><br>[抖音] <a href="https://www.douyin.com/hot/2187543" target="_blank" class="news-link">两名中国人在日本街头遭殴打</a> [16] <font color='grey'>- 16时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E8%BF%91%E6%9C%9F%E8%B0%A8%E6%85%8E%E5%89%8D%E5%BE%80%E6%97%A5%E6%9C%AC" target="_blank" class="news-link">外交部：中国公民近期谨慎前往日本</a> [17] <font color='grey'>- 16时56分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E6%97%A5%E6%9C%AC%E9%81%AD%E6%AE%B4%E6%89%93%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%A7%B0%E4%B8%8D%E8%AE%A4%E8%AF%86%E8%A2%AD%E5%87%BB%E8%80%85%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">日本遭殴打中国人称不认识袭击者</a> [17] <font color='grey'>- 16时56分</font><br>[知乎] <a href="https://www.zhihu.com/question/1930260916903051513" target="_blank" class="news-link">如何评价国产动画电影《罗小黑战记 2》中的鹿野师姐？</a> [17] <font color='grey'>- 16时56分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31271965" target="_blank" class="news-link">两名中国人在东京遭不明身份人员袭击受重伤</a> [19] <font color='grey'>- 16时56分</font></div><br>[知乎] <a href="https://www.zhihu.com/question/1932734567384618867" target="_blank" class="news-link">世界各国文字几乎都变成了字母，为何唯独中国文字两千年来都保持汉字不变？</a> [20] <font color='grey'>- 16时56分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A52%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%9C%E4%BA%AC%E9%81%AD4%E4%BA%BA%E6%AE%B4%E6%89%93" target="_blank" class="news-link">日本警方通报2中国人东京遭4人殴打</a> [24] <font color='grey'>- 16时56分</font></div><br>[微博] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%E7%BE%8E%E5%9B%BD%E5%A9%B4%E5%84%BF%E5%B0%9D%E8%AF%95%E4%B8%AD%E5%9B%BD%E5%A9%B4%E5%84%BF%E7%9A%84%E9%A3%9F%E7%89%A9&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">美国婴儿尝试中国婴儿的食物</a> [24] <font color='grey'>- 16时56分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7533145298106060298/" target="_blank" class="news-link">外交部回应2名中国公民在日遭袭</a> [30] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.31%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31271551" target="_blank" class="news-link">国家网信办就H20算力芯片漏洞后门安全风险约谈英伟达公司</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2102054" target="_blank" class="news-link">国家网信办约谈英伟达</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时56分</font><br>[知乎] <a href="https://www.zhihu.com/question/1934238323150395354" target="_blank" class="news-link">国家网信办就 H20 算力芯片漏洞后门安全风险约谈英伟达公司，该漏洞会有哪些风险？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2102262" target="_blank" class="news-link">事关中美经贸会谈、中方约谈英伟达，商务部最新回应</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时56分</font><br>[抖音] <a href="https://www.douyin.com/hot/2187643" target="_blank" class="news-link">国家网信办约谈英伟达</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时56分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8lR3KYNixmy" target="_blank" class="news-link">涉H20芯片！国家网信办约谈英伟达</a> [6] <font color='grey'>- 16时56分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7532303206379192383/" target="_blank" class="news-link">国家网信办约谈英伟达</a> [7] <font color='grey'>- 16时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E7%BD%91%E4%BF%A1%E5%8A%9E%E7%BA%A6%E8%B0%88%E8%8B%B1%E4%BC%9F%E8%BE%BE" target="_blank" class="news-link">国家网信办约谈英伟达</a> [7] <font color='grey'>- 16时56分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8lRDzkQpG35" target="_blank" class="news-link">英伟达被约谈对中美经贸有何影响？商务部回应</a> [7] <font color='grey'>- 16时56分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%A2%AB%E7%BA%A6%E8%B0%88" target="_blank" class="news-link">英伟达被约谈</a> [15] <font color='grey'>- 16时56分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%A2%AB%E7%BA%A6%E8%B0%88%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">英伟达被约谈</a> [23] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1932783965829309295" target="_blank" class="news-link">网友质疑武汉大学杨景媛硕士毕业论文疑似使用 AI 完成，是真的吗？如果是真，会受到哪些处罚？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752261" target="_blank" class="news-link">美国Q2实际GDP年化季环比初值3%好于预期，PCE物价指数2.5%</a> [6] <font color='grey'>- 16时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2101986" target="_blank" class="news-link">时间是个“照妖镜”！鲍威尔押注：美国经济将在2个月内显露真面目</a> [10] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1933580288862168922" target="_blank" class="news-link">最新《财富》世界 500 强揭晓，中国 130 家公司上榜，比亚迪首次进入前 100，哪些信息可关注？</a> [7] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9D%E5%83%8F%E7%B4%A0%E7%89%88" target="_blank" class="news-link">黑神话像素版更新第四章</a> [25] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1933614149251888657" target="_blank" class="news-link">如何评价 2025 年 7 月米哈游《原神》5.8 任务「空月之歌序奏 归途」？</a> [14] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">小米 雷军 xiaomi</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343895&amp;amp;topic_name=%E6%AD%A6%E5%A4%A7%E6%A0%87%E7%AD%BE%E8%A2%AB%E9%9B%B7%E5%86%9B%E5%88%A0%E4%BA%86%E5%8F%88%E5%8A%A0" target="_blank" class="news-link">武大标签被雷军删了又加</a> [16] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752227" target="_blank" class="news-link">鲍威尔鹰派讲话扭转鸽派声明，美国股债承压，美元创两月新高，Meta、微软绩后大涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A2%ABOpenAI%E7%82%B9%E5%90%8D%E7%9A%84%E5%9B%BD%E4%BA%A7AI%E4%BB%80%E4%B9%88%E6%B0%B4%E5%B9%B3" target="_blank" class="news-link">被OpenAI点名的国产AI什么水平</a> [16] <font color='grey'>- 16时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A52%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%9C%E4%BA%AC%E9%81%AD4%E4%BA%BA%E6%AE%B4%E6%89%93" target="_blank" class="news-link">日本警方通报2中国人东京遭4人殴打</a> [24]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31271965" target="_blank" class="news-link">两名中国人在东京遭不明身份人员袭击受重伤</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
