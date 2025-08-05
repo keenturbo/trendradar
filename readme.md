@@ -2,15 +2,12 @@
 
 # 🎯TrendRadar
 
-**你的专属热点助手 —— 让手机只推送你真正关心的新闻**
-
-<strong>🚀 最快一分钟部署完毕！从此告别无效刷屏，只看有价值的信息</strong>
+<strong>🚀 最快一分钟部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯</strong>
 
 [![GitHub Stars](https://img.shields.io/github/stars/sansan0/TrendRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/TrendRadar/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/sansan0/TrendRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/TrendRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.7%2B-3776AB?style=flat-square&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![Version](https://img.shields.io/badge/version-v2.0.0-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
+[![Version](https://img.shields.io/badge/version-v2.0.2-green.svg?style=flat-square)](https://github.com/sansan0/TrendRadar)
 
 [![企业微信通知](https://img.shields.io/badge/企业微信-通知支持-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![Telegram通知](https://img.shields.io/badge/Telegram-通知支持-00D4AA?style=flat-square)](https://telegram.org/)
@@ -23,17 +20,13 @@
 </div>
 
 
-> 如果本项目对你有所帮助，**点个 Star ⭐** 就是对我最大的支持。
+> 本项目以轻量，易部署为目标，主要处理 issues
 >
-> 遇到问题可以直接提 issues。也可以【硅基茶水间】公众号留言问题。
-
-
+> 遇到问题提 issues，或【硅基茶水间】公众号留言
 
 ## ✨ 核心功能
 
 ### **全网热点聚合**
-
-默认监控 11 个主流平台
 
 - 今日头条
 - 百度热搜
@@ -47,19 +40,13 @@
 - 抖音
 - 知乎
 
-> _理论上支持 35 个左右，如果你想增加额外的金融类等相关资讯推送，可看最下方的**自定义监控平台**_
+默认监控 11 个主流平台，如想额外增加，可看最下方的**自定义监控平台**
 
 ### **智能推送策略**
 
-提供三种工作模式满足不同需求：
+三种推送模式：
 
-| 模式 | 推送时机 | 显示内容 | 适用场景 |
-|------|----------|----------|----------|
-| **当日汇总模式**<br/>`daily` | 按时推送 | 当日所有匹配新闻<br/>+ 新增新闻区域 | 日报总结<br/>全面了解当日热点趋势 |
-| **当前榜单模式**<br/>`current` | 按时推送 | 当前榜单匹配新闻<br/>+ 新增新闻区域 | 实时热点追踪<br/>了解当前最火的内容 |
-| **增量监控模式**<br/>`incremental` | 有新增才推送 | 新出现的匹配频率词新闻 | 避免重复信息干扰<br/>高频监控场景 |
-
-- **📈 投资者/交易员** → 选择 `incremental`，及时获取新增资讯(建议自建服务器进行 docker 部署，提高检测频率)
+- **📈 投资者/交易员** → 选择 `incremental`，及时获取新增资讯
 - **📰 自媒体人/内容创作者** → 选择 `current`，掌握实时热点趋势  
 - **📋 企业管理者/普通用户** → 选择 `daily`，定时获取完整日报
 
@@ -67,39 +54,89 @@
 
 设置个人关键词（如：AI、比亚迪、教育政策），只推送相关热点，过滤无关信息
 
-> _比如关注"新能源"，自动筛选出特斯拉降价、政策补贴等相关新闻_
-
 ### **多渠道实时推送**
 
-支持企业微信、飞书、钉钉、Telegram 主流聊天工具，消息直达手机
+支持**企业微信**、**飞书**、**钉钉**、**Telegram**，消息直达手机
 
 ### **零技术门槛部署**
 
 GitHub 一键 Fork 即可使用，无需编程基础。
 
-> _如果要手机接收通知， 要达到 1 分钟部署完毕的效果，请选择**企业微信**_
+> 如果要手机接收通知， 要达到 1 分钟部署完毕的效果，请选择**企业微信**
 
 ### **减少 APP 依赖**
 
-不再需要频繁打开各种资讯 APP，有效控制手机使用时间
-
-> _从"被算法推荐绑架"变成"主动获取自己想要的信息"_
+从"被算法推荐绑架"变成"主动获取自己想要的信息"
 
 **适合人群：** 投资者、自媒体人、企业公关、关心时事的普通用户
 
 **典型场景：** 股市投资监控、品牌舆情追踪、行业动态关注、生活资讯获取
 
-**💡 提示：** 想要网页版？进入你的仓库 Settings → Pages，启用 GitHub Pages 即可获得自动更新的新闻页面链接。比如我这里[TrendRadar](https://sansan0.github.io/TrendRadar/)。
+**💡 提示：** 想要网页版？进入你的仓库 Settings → Pages，启用 GitHub Pages。比如我这里[TrendRadar](https://sansan0.github.io/TrendRadar/)。
 
 <p align="center">
   <img src="_image/2025-06-14.jpg" alt="最新推送效果" width="400"/>
 </p>
 
+<details>
+<summary><strong>👉 点击查看推送格式说明</strong></summary>
+
+## 📊 输出示例
+
+### 通知示例：
+
+```
+📊 热点词汇统计
+
+🔥 人工智能 AI : 12 条
+
+  1. [百度热搜] 科技巨头发布新AI模型 [1] - 12时30分 (4次)
+
+  2. [今日头条] AI技术最新突破 [2] - [13时15分 ~ 14时30分] (2次)
+
+```
+
+### 消息格式说明
+
+| 格式元素      | 示例                        | 含义         | 说明                                    |
+| ------------- | --------------------------- | ------------ | --------------------------------------- |
+| **关键词**    | **人工智能 AI**             | 频率词组     | 表示本组匹配的关键词                    |
+| : N 条        | : 12 条                     | 匹配数量     | 该关键词组匹配的标题总数                |
+| [平台名]      | [百度热搜]                  | 来源平台     | 标题所属的平台名称                      |
+| [**数字**]    | [**1**]                     | 高排名标记   | 排名 ≤ 阈值(默认 5)的热搜，红色加粗显示 |
+| [数字]        | [7]                         | 普通排名标记 | 排名>阈值的热搜，普通显示               |
+| - 时间        | - 12 时 30 分               | 首次发现时间 | 标题首次被发现的时间                    |
+| [时间 ~ 时间] | [12 时 30 分 ~ 14 时 00 分] | 时间范围     | 标题出现的时间范围(首次~最后)           |
+| (N 次)        | (4 次)                      | 出现次数     | 标题在监控期间出现的总次数              |
+
+
+</details>
+
 ## 📝 更新日志
 
-**升级说明：** 
+>**升级说明：** 
 - **小版本更新**：直接在 GitHub 网页编辑器中，用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件 
 - **大版本升级**：从 v1.x 升级到 v2.0 建议删除现有 fork 后重新 fork，这样更省力且避免配置冲突
+
+### 2025/07/28 - v2.0.2
+
+- 重构代码
+- 解决版本号容易被遗漏修改的问题
+
+<details>
+<summary><strong>👉 历史更新</strong></summary>
+
+
+### 2025/07/27 - v2.0.1
+
+**修复问题**: 
+
+1. docker 的 shell 脚本的换行符为 CRLF 导致的执行异常问题
+2. frequency_words.txt 为空时，导致新闻发送也为空的逻辑问题
+  - 修复后，当你选择 frequency_words.txt 为空时，将**推送所有新闻**，但受限于消息推送大小限制，请做如下调整
+    - 方案一：关闭手机推送，只选择 Github Pages 布置(这是能获得最完整信息的方案，将把所有平台的热点按照你**自定义的热搜算法**进行重新排序)
+    - 方案二：减少推送平台，优先选择**企业微信**或**Telegram**，这两个推送我做了分批推送功能(因为分批推送影响推送体验，且只有这两个平台只给一点点推送容量，所以才不得已做了分批推送功能，但至少能保证获得的信息完整)
+    - 方案三：可与方案二结合，模式选择 current 或 incremental 可有效减少一次性推送的内容 
 
 ### 2025/07/17 - v2.0.0
 
@@ -112,15 +149,11 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - `config/config.yaml` - 主配置文件（应用设置、爬虫配置、通知配置、平台配置等）
 - `config/frequency_words.txt` - 关键词配置（监控词汇设置）
 
-
-<details>
-<summary><strong>📝 点击查看历史更新</strong></summary>
-
 ### 2025/07/09 - v1.4.1
 
-**功能新增**：增加增量推送(在 main.py 头部配置 FOCUS_NEW_ONLY)，该开关只关心新话题而非持续热度，只在有新内容时才发通知
+**功能新增**：增加增量推送(在 main.py 头部配置 FOCUS_NEW_ONLY)，该开关只关心新话题而非持续热度，只在有新内容时才发通知。
 
-**修复问题**: 某些情况下，由于新闻本身含有特殊符号导致的偶发性排版异常
+**修复问题**: 某些情况下，由于新闻本身含有特殊符号导致的偶发性排版异常。
 
 ### 2025/06/23 - v1.3.0
 
@@ -209,10 +242,11 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
    在你 Fork 后的仓库中，进入 `Settings` > `Secrets and variables` > `Actions` > `New repository secret`，然后根据需要配置以下任一或多个通知平台：
 
-   **💡 提示：** 可以同时配置多个平台，系统会向所有配置的平台发送通知。点击下方对应平台展开详细配置步骤。
+   可以同时配置多个平台，系统会向所有配置的平台发送通知。
 
    <details>
-   <summary>🟡 <strong>企业微信机器人</strong>（配置最简单最迅速）</summary>
+   <summary> <strong>👉 企业微信机器人</strong>（配置最简单最迅速）</summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`WEWORK_WEBHOOK_URL`
@@ -230,7 +264,8 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    </details>
 
    <details>
-   <summary>🟢 <strong>飞书机器人</strong>（消息显示最友好）</summary>
+   <summary> <strong>👉 飞书机器人</strong>（消息显示最友好）</summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`FEISHU_WEBHOOK_URL`
@@ -274,7 +309,8 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    </details>
 
    <details>
-   <summary>🔵 <strong>钉钉机器人</strong></summary>
+   <summary> <strong>👉 钉钉机器人</strong></summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`DINGTALK_WEBHOOK_URL`
@@ -301,7 +337,8 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
    </details>
 
    <details>
-   <summary>🟣 <strong>Telegram Bot</strong></summary>
+   <summary> <strong>👉 Telegram Bot</strong></summary>
+   <br>
 
    **GitHub Secret 配置：**
    - 名称：`TELEGRAM_BOT_TOKEN` - 你的 Telegram Bot Token
@@ -335,12 +372,15 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
     - **关键词配置**: 修改 `config/frequency_words.txt` 文件，添加你关心的关键词
     - **运行模式配置**: 在 `config/config.yaml` 中修改 `report.mode` 设置：
-      - `"daily"` - 当日汇总模式（默认）
-      - `"current"` - 当前榜单模式  
-      - `"incremental"` - 增量监控模式
+      | 模式 | 推送时机 | 显示内容 | 适用场景 |
+        |------|----------|----------|----------|
+        | **当日汇总模式**<br/>`daily` | 按时推送 | 当日所有匹配新闻<br/>+ 新增新闻区域 | 日报总结<br/>全面了解当日热点趋势 |
+        | **当前榜单模式**<br/>`current` | 按时推送 | 当前榜单匹配新闻<br/>+ 新增新闻区域 | 实时热点追踪<br/>了解当前最火的内容 |
+        | **增量监控模式**<br/>`incremental` | 有新增才推送 | 新出现的匹配频率词新闻 | 避免重复信息干扰<br/>高频监控场景 |
    
     <details>
-    <summary><strong>⚙️ 点击查看 frequency_words.txt 配置教程</strong></summary>
+    <summary><strong>👉 frequency_words.txt 配置教程</strong></summary>
+    <br>
 
     在 `frequency_words.txt` 文件中配置监控的关键词，支持三种语法和词组功能。
 
@@ -491,41 +531,13 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
 4. **自动运行**:
 
-   - 项目已包含`.github/workflows/crawler.yml`配置文件，默认每 30 分钟自动运行一次
+   - 项目已包含`.github/workflows/crawler.yml`配置文件，默认每小时运行一次
    - 你也可以在 GitHub 仓库的 Actions 页面手动触发运行
 
 5. **查看结果**:
    - 运行结果将自动保存在仓库的`output`目录中
    - 同时通过配置的机器人发送通知到你的群组
 
-
-## 📊 输出示例
-
-### 通知示例：
-
-```
-📊 热点词汇统计
-
-🔥 人工智能 AI : 12 条
-
-  1. [百度热搜] 科技巨头发布新AI模型 [1] - 12时30分 (4次)
-
-  2. [今日头条] AI技术最新突破 [2] - [13时15分 ~ 14时30分] (2次)
-
-```
-
-### 消息格式说明
-
-| 格式元素      | 示例                        | 含义         | 说明                                    |
-| ------------- | --------------------------- | ------------ | --------------------------------------- |
-| **关键词**    | **人工智能 AI**             | 频率词组     | 表示本组匹配的关键词                    |
-| : N 条        | : 12 条                     | 匹配数量     | 该关键词组匹配的标题总数                |
-| [平台名]      | [百度热搜]                  | 来源平台     | 标题所属的平台名称                      |
-| [**数字**]    | [**1**]                     | 高排名标记   | 排名 ≤ 阈值(默认 5)的热搜，红色加粗显示 |
-| [数字]        | [7]                         | 普通排名标记 | 排名>阈值的热搜，普通显示               |
-| - 时间        | - 12 时 30 分               | 首次发现时间 | 标题首次被发现的时间                    |
-| [时间 ~ 时间] | [12 时 30 分 ~ 14 时 00 分] | 时间范围     | 标题出现的时间范围(首次~最后)           |
-| (N 次)        | (4 次)                      | 出现次数     | 标题在监控期间出现的总次数              |
 
 
 ### 🔧 自定义监控平台
@@ -544,6 +556,9 @@ platforms:
     name: "华尔街见闻"
   # 添加更多平台...
 ```
+
+<details>
+<summary><strong>👉 Docker 部署</strong></summary>
 
 ### 🐳 Docker 部署
 
@@ -586,29 +601,61 @@ platforms:
    # 显示帮助信息
    docker exec -it trend-radar python manage.py help
    ```
+</details>
 
+## ☕ 学习交流与1元点赞
 
-## ☕ 赞助让代码更香.jpg
+> 心意到就行，收到的点赞用于提高开发者开源的积极性
 
 <div align="center">
 
-| Wechat | Alipay |
-|:---:|:---:|
-| <img src="https://cdn-1258574687.cos.ap-shanghai.myqcloud.com/img/%2F2025%2F07%2F17%2F2ae0a88d98079f7e876c2b4dc85233c6-9e8025.JPG" width="300" title="微信支付"/> | <img src="https://cdn-1258574687.cos.ap-shanghai.myqcloud.com/img/%2F2025%2F07%2F17%2Fed4f20ab8e35be51f8e84c94e6e239b4-fe4947.JPG" width="300" title="支付宝支付"/> |
+|公众号关注 |微信点赞 | 支付宝点赞 |
+|:---:|:---:|:---:| 
+| <img src="_image/weixin.png" width="300" title="硅基茶水间"/> | <img src="https://cdn-1258574687.cos.ap-shanghai.myqcloud.com/img/%2F2025%2F07%2F17%2F2ae0a88d98079f7e876c2b4dc85233c6-9e8025.JPG" width="300" title="微信支付"/> | <img src="https://cdn-1258574687.cos.ap-shanghai.myqcloud.com/img/%2F2025%2F07%2F17%2Fed4f20ab8e35be51f8e84c94e6e239b4-fe4947.JPG" width="300" title="支付宝支付"/> |
 
 </div>
 
+感谢以下热心观众的点赞
 
-## 📧 学习交流
+|           点赞人            |  金额  |  日期  |             备注             |
+| :-------------------------: | :----: | :----: | :-----------------------: |
+|           *侠            |  10  | 2025.8.04 |           |
+|           x*x            |  2  | 2025.8.03 |  trendRadar 好项目 点赞          |
+|           *远            |  1  | 2025.8.01 |            |
+|           *邪            |  5  | 2025.8.01 |            |
+|           *梦            |  0.1  | 2025.7.30 |            |
+|           **龙            |  10  | 2025.7.29 |      支持一下      |
 
-<div align="center">
-
-<img src="_image/support.jpg"  title="硅基茶水间留言"/>
+<details>
+<summary><strong>👉 自荐</strong></summary>
 <br>
-<img src="_image/weixin.png" width="600" title="硅基茶水间"/>
 
-</div>
+> 附项目相关的两篇文章，欢迎留言交流
 
+- [2个月破 1000 star，我的GitHub项目推广实战经验](https://mp.weixin.qq.com/s/jzn0vLiQFX408opcfpPPxQ)
+- [基于本项目，如何开展公众号或者新闻资讯类文章写作](https://mp.weixin.qq.com/s/8ghyfDAtQZjLrnWTQabYOQ)
+
+>**AI 开发：**
+- 如果你有小众需求，完全可以基于我的项目自行开发，零编程基础的也可以试试
+- 我所有的开源项目或多或少都使用了自己写的**AI辅助软件**来提升开发效率，这款工具已开源
+- **核心功能**：迅速筛选项目代码喂给AI，你只需要补充个人需求即可
+- **项目地址**：[https://github.com/sansan0/ai-code-context-helper](https://github.com/sansan0/ai-code-context-helper)
+
+</details>
+
+<details>
+<summary><strong>👉 "手机推送通知系列"之新项目挖坑预告</strong></summary>
+<br>
+我很豪横地拿诸位的点赞，买了一瓶 15.5 元的柠檬汁
+
+截图中只支持一个渠道，我想顺便扩展功能，比如某些项目的更新监控，大家有什么好的建议可以公众号留言，完善后开源
+
+<img src="_image/next.jpg" width="300" title="github"/>
+
+</details>
+
+<details>
+<summary><strong>👉 本项目流程图</strong></summary>
 
 ```mermaid
 flowchart TD
@@ -629,7 +676,7 @@ flowchart TD
     F --> G[🎯 选择运行模式<br/>config/config.yaml<br/>daily/current/incremental]
     
     G --> H[✅ 配置完成]
-    H --> I[🤖 系统每30分钟自动运行]
+    H --> I[🤖 系统根据设定时间自动运行]
     
     I --> J[📊 爬取各大平台热点]
     J --> K[🔍 根据关键词筛选]
@@ -649,6 +696,7 @@ flowchart TD
     style O fill:#e8f5e8
 ```
 
+</details>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sansan0/TrendRadar&type=Date)](https://www.star-history.com/#sansan0/TrendRadar&Date)
 
