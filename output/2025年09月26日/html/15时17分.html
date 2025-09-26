@@ -1,0 +1,130 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-26 15:17:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">10</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2156997" target="_blank" class="news-link">存储行业“超级周期”来了？韩国两大芯片巨头本月市值暴增逾千亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时17分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553653578242736154/" target="_blank" class="news-link">日本女市长被曝与已婚男下属开房</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时17分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756288" target="_blank" class="news-link">美国第二季度GDP增速上修至3.8%，创近两年新高，PCE物价指数2.6%</a> [6] <font color='grey'>- 15时17分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mxM97oldl0" target="_blank" class="news-link">美国“战争部”颁布紧急全球召集令，要有大事发生？</a> [6] <font color='grey'>- 15时17分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mxjj9BF9B3" target="_blank" class="news-link">日本女市长多次与已婚男下属进酒店，鞠躬道歉：我们是去开会</a> [9] <font color='grey'>- 15时17分</font></div><br>[知乎] <a href="https://www.zhihu.com/question/1954819999765066391" target="_blank" class="news-link">特朗普宣布对进口建材、家具及药品实施高额关税，最高达 100%，对相关行业和美国民众生活有哪些影响？</a> [11] <font color='grey'>- 15时17分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E8%80%81%E4%BA%BA%E5%86%B0%E6%9F%9C%E8%97%8F%E5%A5%B3%E5%84%BF%E5%B0%B8%E4%BD%9320%E5%B9%B4%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26band_rank%3D15%26pos%3D16%26filter_type%3Drealtimehot%26realpos%3D15%26c_type%3D31%26cate%3D5001%26flag%3D0%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E8%2580%2581%25E4%25BA%25BA%25E5%2586%25B0%25E6%259F%259C%25E8%2597%258F%25E5%25A5%25B3%25E5%2584%25BF%25E5%25B0%25B8%25E4%25BD%259320%25E5%25B9%25B4%2523%26lcate%3D5001%26display_time%3D1758870948%26pre_seqid%3D175887094869702377021105" target="_blank" class="news-link">日本老人冰柜藏女儿尸体20年</a> [15] <font color='grey'>- 15时17分</font><br>[知乎] <a href="https://www.zhihu.com/question/1954673822348343248" target="_blank" class="news-link">内塔尼亚胡前往美国航线首次改变，绕过法国和西班牙，为什么会出现这一变化？意味着什么？</a> [16] <font color='grey'>- 15时17分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9C%A8%E6%97%A5%E6%9C%AC%E5%81%9A%E5%9C%9F%E6%9C%A8%E5%B7%A5%E4%BA%BA%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">在日本做土木工人什么体验</a> [17] <font color='grey'>- 15时17分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%8A%A8%E5%87%BB%E5%A4%96%E7%BD%91%E4%BE%B5%E5%8D%8E%E7%BD%AA%E8%A1%8C%E8%A7%86%E9%A2%91&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26band_rank%3D23%26pos%3D24%26filter_type%3Drealtimehot%26realpos%3D23%26c_type%3D31%26cate%3D5001%26flag%3D1%26stream_entry_id%3D31%26q%3D%25E6%2597%25A5%25E6%259C%25AC%25E4%25BA%25BA%25E6%258A%25A8%25E5%2587%25BB%25E5%25A4%2596%25E7%25BD%2591%25E4%25BE%25B5%25E5%258D%258E%25E7%25BD%25AA%25E8%25A1%258C%25E8%25A7%2586%25E9%25A2%2591%26lcate%3D5001%26display_time%3D1758870948%26pre_seqid%3D175887094869702377021105" target="_blank" class="news-link">日本人抨击外网侵华罪行视频</a> [23] <font color='grey'>- 15时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">7</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7554224641124863527/" target="_blank" class="news-link">菲总统马科斯会见中国大使释放何信号</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时17分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31682591" target="_blank" class="news-link">中国是否在建第四艘航母？国防部回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时17分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mxLiPcSRov" target="_blank" class="news-link">美国威胁阿根廷：跟中国货币互换，给我取消</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时17分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mx4aoaXM08" target="_blank" class="news-link">对中国稀土产品征税？G7内部有分歧</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时17分</font><br>[抖音] <a href="https://www.douyin.com/hot/2248933" target="_blank" class="news-link">何以中国理想都城</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时17分</font><br>[知乎] <a href="https://www.zhihu.com/question/1954870763560596316" target="_blank" class="news-link">易烊千玺朱一龙刘昊然入围影帝，宋佳咏梅竞争最佳女主，如何评价第 38 届中国电影金鸡奖提名名单？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时17分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%B8%93%E4%B8%9A%E6%8A%80%E6%9C%AF%E4%BA%BA%E6%89%8D%E8%B6%85%E8%BF%878000%E4%B8%87%E4%BA%BA" target="_blank" class="news-link">中国专业技术人才超过8000万人</a> [30] <font color='grey'>- 15时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">1.57%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2156875" target="_blank" class="news-link">让AI来选股！全球约13%散户已行动 智能投顾市场将五年翻七倍？</a> [6] <font color='grey'>- 15时17分</font><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2249935" target="_blank" class="news-link">净网：AI也能成黑产源头？</a> [6] <font color='grey'>- 15时17分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2156625" target="_blank" class="news-link">兼容AI技术发展！2026年有望整体对接落实医疗服务价格项目立项指南</a> [7] <font color='grey'>- 15时17分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756301" target="_blank" class="news-link">市场最大“黑天鹅”：AI资本支出放缓，三大“巨雷”会是美股噩梦</a> [8] <font color='grey'>- 15时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B317+Pro%E6%AF%94iPhone17+Pro%E4%BD%8E4000%E5%85%83" target="_blank" class="news-link">小米17 Pro比iPhone17 Pro低4000元</a> [12] <font color='grey'>- 15时17分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554236418009091610/" target="_blank" class="news-link">小米17到底是怎么对标iPhone 17的</a> [15] <font color='grey'>- 15时17分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7554168275597266451/" target="_blank" class="news-link">小米17 Pro比iPhone17 Pro低4000元</a> [29] <font color='grey'>- 15时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 鸿蒙 HarmonyOS 任正非</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345354&amp;amp;topic_name=%E4%B8%8D%E6%8D%A7%E5%8D%8E%E4%B8%BA%E8%A2%AB%E6%8C%82%2C%E8%80%81%E5%B8%88%E6%88%90%E7%8C%8E%E5%B7%AB%E7%9B%AE%E6%A0%87" target="_blank" class="news-link">不捧华为被挂,老师成猎巫目标</a> [9] <font color='grey'>- 15时17分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345300&amp;amp;topic_name=%E5%8D%8E%E4%B8%BA%E5%8F%B0%E9%A3%8E%E4%B8%8D%E5%81%9C%E5%B7%A5%2C%E8%80%81%E5%B9%BF%E7%89%9B%E9%A9%AC%E9%97%B9%E7%BF%BB%E5%A4%A9" target="_blank" class="news-link">华为台风不停工,老广牛马闹翻天</a> [24] <font color='grey'>- 15时17分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2156638" target="_blank" class="news-link">人形机器人或加速进入工业场景 产业链零部件厂商有望获益</a> [13] <font color='grey'>- 15时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756278" target="_blank" class="news-link">小米是组装厂、没技术？雷军：芯片是走向成功必由之路，至少要坚持十年、至少投入五百亿</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时17分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 7 条)</h3>
+        <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7553653578242736154/" target="_blank" class="news-link">日本女市长被曝与已婚男下属开房</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.toutiao.com/trending/7554236418009091610/" target="_blank" class="news-link">小米17到底是怎么对标iPhone 17的</a> [15]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%B8%93%E4%B8%9A%E6%8A%80%E6%9C%AF%E4%BA%BA%E6%89%8D%E8%B6%85%E8%BF%878000%E4%B8%87%E4%BA%BA" target="_blank" class="news-link">中国专业技术人才超过8000万人</a> [30]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2156638" target="_blank" class="news-link">人形机器人或加速进入工业场景 产业链零部件厂商有望获益</a> [13]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8mxjj9BF9B3" target="_blank" class="news-link">日本女市长多次与已婚男下属进酒店，鞠躬道歉：我们是去开会</a> [9]</li></ul><h4>贴吧 (1 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345354&amp;amp;topic_name=%E4%B8%8D%E6%8D%A7%E5%8D%8E%E4%B8%BA%E8%A2%AB%E6%8C%82%2C%E8%80%81%E5%B8%88%E6%88%90%E7%8C%8E%E5%B7%AB%E7%9B%AE%E6%A0%87" target="_blank" class="news-link">不捧华为被挂,老师成猎巫目标</a> [9]</li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2249935" target="_blank" class="news-link">净网：AI也能成黑产源头？</a> [6]</li></ul></div>
+    </body>
+    </html>
+    
